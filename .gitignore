@@ -1,1 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/compiler.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/workspace.xml
+pom.xml
+src/main/resources/
+src/test/
+utils.iml

@@ -89,4 +89,8 @@ public class CRC16Util {
         return String.format("%04x", computeCrc16(HexUtil.hexStringToByteArray(str)));
     }
 
+    public static void main(String[] args) {
+        String s = checkCrc16("7b20494d4549203a203839313133343431323134347d");
+        System.out.println(s);
+    }
 }
